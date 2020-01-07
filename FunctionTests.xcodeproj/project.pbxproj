@@ -14,6 +14,8 @@
 		193C001023C222F40019B368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 193C000F23C222F40019B368 /* Assets.xcassets */; };
 		193C001323C222F40019B368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193C001123C222F40019B368 /* LaunchScreen.storyboard */; };
 		193C001623C222F40019B368 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 193C001523C222F40019B368 /* main.m */; };
+		193C001E23C224620019B368 /* ParentClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 193C001D23C224620019B368 /* ParentClass.m */; };
+		198E361C23C44AD700B96B47 /* ChildClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 198E361B23C44AD700B96B47 /* ChildClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		193C001223C222F40019B368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		193C001423C222F40019B368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		193C001523C222F40019B368 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		193C001C23C224620019B368 /* ParentClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentClass.h; sourceTree = "<group>"; };
+		193C001D23C224620019B368 /* ParentClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentClass.m; sourceTree = "<group>"; };
+		198E361A23C44AD700B96B47 /* ChildClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChildClass.h; sourceTree = "<group>"; };
+		198E361B23C44AD700B96B47 /* ChildClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,10 @@
 		193C000223C222F30019B368 /* FunctionTests */ = {
 			isa = PBXGroup;
 			children = (
+				193C001C23C224620019B368 /* ParentClass.h */,
+				193C001D23C224620019B368 /* ParentClass.m */,
+				198E361A23C44AD700B96B47 /* ChildClass.h */,
+				198E361B23C44AD700B96B47 /* ChildClass.m */,
 				193C000323C222F30019B368 /* AppDelegate.h */,
 				193C000423C222F30019B368 /* AppDelegate.m */,
 				193C000623C222F30019B368 /* SceneDelegate.h */,
@@ -149,7 +159,9 @@
 				193C000B23C222F30019B368 /* ViewController.m in Sources */,
 				193C000523C222F30019B368 /* AppDelegate.m in Sources */,
 				193C001623C222F40019B368 /* main.m in Sources */,
+				198E361C23C44AD700B96B47 /* ChildClass.m in Sources */,
 				193C000823C222F30019B368 /* SceneDelegate.m in Sources */,
+				193C001E23C224620019B368 /* ParentClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ParentClass.h"
+#import "ChildClass.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    ParentClass* parent = [[ChildClass alloc] init]; // создание экземпляра класса
+    
+    [parent sayHello]; // вызов методов
+    
+    [parent say: @"Privet"];
+    
+    [parent say:@"I was worried about you" and:@"where have you been"];
+    
+    NSLog(@"%@", [parent saySomething]);
+    
+    [ChildClass whoAreYou];
+    
     return YES;
 }
 
